@@ -35,8 +35,12 @@ function preload() {
 
 function setup() {
   createCanvas(windowWidth, windowHeight); // full screen
-  background(94, 120, 62); //create background
   imageMode(CENTER); // set image mode to center
+
+  pixelDensity(2);
+
+  background(94, 120, 62); //create background
+
   
   //define button for the lake brush
   let buttonLake = createButton("Lake");
