@@ -161,6 +161,16 @@ function draw() {
     }
   }
   image(logo, windowWidth - 80, 40, logo.width * 0.02, logo.height * 0.02);
+
+  push();
+  noStroke();
+  translate(200,50);
+  fill(0);
+  rect(0,0,50,50)
+  fill(255);
+  textSize(20);
+  text(int(frameRate()), 10,30);
+  pop();
 }
 
 //redefine current brush
