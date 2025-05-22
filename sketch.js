@@ -34,7 +34,7 @@ function preload() {
 }
 
 function setup() {
-  createCanvas(windowWidth, windowHeight); // full screen
+  createCanvas(windowWidth, windowHeight * .8); // full screen
   imageMode(CENTER); // set image mode to center
 
   pixelDensity(2);
